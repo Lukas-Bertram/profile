@@ -1,0 +1,83 @@
+body {
+  color: rgb(75, 83, 119);
+  background-color: rgb(235, 235, 235);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 1.1;
+}
+
+h1, h2, h3 {
+  font-family: "Roboto", sans-serif;
+  color: rgb(0, 56, 139);
+  font-size: 22px;
+  line-height:0.9;
+}
+
+h1 {
+  font-size: 34;
+}
+
+#profile-pic {
+  width: 150px;
+  height: 150px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.button-blue {
+  text-decoration: none;
+  background-color: #135ca1;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+}
+
+.button-blue:hover {
+  background-color: #1e9ddc;
+  transition: 0.3s;
+}
+
+.social-links {
+  color: #135ca1;
+  text-decoration: none;
+  font-size: 45px;
+  font-weight: bold;
+  padding: 6px;
+}
+
+.social-links:hover {
+  color: #1e9ddc;
+  transition: 0.3s;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  margin: 25px auto;
+  border-radius: 7px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
